@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    
+    height: 860px;
+    background: no-repeat;
+    margin-top: 20px;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0feb1115-40ba-4005-967c-210503f0025c/d7nn09q-499e9e5e-548e-4316-979b-e0a37ffdddf4.png/v1/fill/w_894,h_894,strp/family_guy_folder_icons_by_f0l13ad3ux_d7nn09q-pre.png);
+}

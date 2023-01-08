@@ -1,0 +1,43 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: sticky;
+    background-color: rgb(255, 255, 101);
+    height: 90px;
+    width: 1900px;
+    display: flex;
+    justify-content: space-between;
+}
+.imga{
+    height: 88px;
+    width: 112px;
+    padding: 4px 0px;
+}
+.navbar{
+    display: inline-flex;
+}
+.navbar ul{
+    size: 30px;
+}
+.navbar ul li{
+    font-size: 20px;
+    padding: 30px 70px;
+    color: rgb(11, 238, 254);
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.navbar ul li a{
+text-decoration: none;
+}
+.navbar ul li :hover{
+    color:rgb(243, 32, 9);
+    cursor: pointer;
+}
+.signin{
+    padding: 20px;
+}
