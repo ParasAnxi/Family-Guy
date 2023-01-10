@@ -3,14 +3,17 @@
 
     margin: 0;
     padding: 0;
+    font-size: 18px;
 }
 .header{
     position: sticky;
-    background-color: rgb(255, 255, 101);
+    background-color: rgb(11, 238, 254);
+    color: white;
     height: 90px;
-    width: 1900px;
     display: flex;
     justify-content: space-between;
+    top:0;
+    box-sizing: border-box;
 }
 .imga{
     height: 88px;
@@ -19,25 +22,43 @@
 }
 .navbar{
     display: inline-flex;
+    background-color: rgb(11, 238, 254);
+    color: white;
 }
+
 .navbar ul{
-    size: 30px;
-}
-.navbar ul li{
-    font-size: 20px;
     padding: 30px 70px;
-    color: rgb(11, 238, 254);
+    background-color: rgb(11, 238, 254);
+    color: white;
     list-style: none;
     display: inline-flex;
     justify-content: space-between;
+    font-weight: bolder;
+    text-decoration: none;
 }
-.navbar ul li a{
-text-decoration: none;
-}
-.navbar ul li :hover{
+
+.navbar ul:hover{
     color:rgb(243, 32, 9);
-    cursor: pointer;
 }
 .signin{
     padding: 20px;
 }
+.signin .btn1{
+    background-color: transparent;
+    border: none;
+}
+.signin .btn1 :hover{
+    cursor: pointer;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+   @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }

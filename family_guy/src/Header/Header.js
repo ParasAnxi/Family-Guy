@@ -1,7 +1,12 @@
-import React from "react";
+import React from "react"
 import "./Header.css";
+import Nav from '../Data'
 
 function Header() {
+    const a=Nav.map((item)=>{
+      return <ul>{item.text}</ul>
+    })
+  const [navList, setNavList] = React.useState(false)
   return (
     <div className="header">
       <img
@@ -10,18 +15,14 @@ function Header() {
         alt="logo"
       />
 
-      <div className="navbar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Email</a></li>
-          <li><a href="#">sign up</a></li>
-        </ul>
-      </div>
+<div className='navbar'>
+           {a}
+          </div>
 
       <div className="signin">
+        <button className="btn1">
       <i class="fa fa-user fa-3x"></i>
+        </button>
       </div>
     </div>
   );
