@@ -3,10 +3,7 @@ import "./Header.css";
 import Nav from '../Data'
 
 function Header() {
-    const a=Nav.map((item)=>{
-      return <ul>{item.text}</ul>
-    })
-  const [navList, setNavList] = React.useState(false)
+
   return (
     <div className="header">
       <img
@@ -16,7 +13,11 @@ function Header() {
       />
 
 <div className='navbar'>
-           {a}
+      <ul>
+        {Nav.map((item)=>(
+        <li>{item.text}</li>
+      ))}
+      </ul>
           </div>
 
       <div className="signin">
