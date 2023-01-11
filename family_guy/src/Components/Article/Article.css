@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+.search{
+    /* background-color: brown; */
+    position: absolute;
+    /* margin-bottom: 60px; */
+    padding: 5px 10px;
+    /* display: inline-block; */
+    justify-content: center;
+    right: 30%;
+    margin: auto;
+    align-items: center;
+    height: 40px;
+    width: 500px;
+    bottom: 603px;
+    border-radius: 5px;
+}
+.hero{
+    height: 860px;
+    /* margin-top: 20px; */
+  
+}
+.hero .bg{
+    display: flex;
+    margin-top: 60px;
+    background-repeat: no-repeat;
+}

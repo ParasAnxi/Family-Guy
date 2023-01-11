@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+.sec1 p{
+    position: relative;
+    font-size: larger;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bolder;
+    color: black;
+    right: 440px;
+    top: 580px;
+    z-index: 99999;
+    margin: 40px 20px;
+}
+.sim{
+    height: 600px;
+    width: 470px;
+}
+.sim2{
+    height: 600px;
+    width: 470px;
+    padding: 0px 19px;
+}

@@ -1,6 +1,6 @@
 import React from "react"
 import "./Header.css";
-import Nav from '../Data'
+import Nav from '../../Data/Data'
 
 function Header() {
 
